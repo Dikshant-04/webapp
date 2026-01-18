@@ -1,0 +1,33 @@
+# Django Core
+Django==5.0.1
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# JWT Authentication
+djangorestframework-simplejwt==5.3.1
+
+# Database
+psycopg2-binary==2.9.9
+
+# Celery & Redis
+celery==5.3.4
+redis==5.0.1
+django-redis==5.4.0
+
+# Environment & Utils
+python-dotenv==1.0.0
+python-decouple==3.8
+
+# Email
+django-anymail==10.2
+
+# API Documentation
+drf-yasg==1.21.7
+
+# Security
+django-filter==23.5
+bleach==6.1.0
+
+# Development
+gunicorn==21.2.0
+whitenoise==6.6.0
