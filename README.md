@@ -4,7 +4,7 @@ A complete, production-ready role-based web application built with Django REST F
 
 ## 🎯 Project Overview
 
-Project SPD is a software company website with:
+Project SPD is a software company, providing various different digital services. The company website contains:
 - **Public Pages**: Home, Blogs, Services, Contact, Public Profiles
 - **Staff Dashboard**: Profile management, personal blog management
 - **Admin Dashboard**: Full system control, user management, analytics
