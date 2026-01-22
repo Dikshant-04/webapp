@@ -66,6 +66,11 @@ export const authAPI = {
   register: (data) => api.post('/auth/register/', data),
   logout: (refreshToken) => api.post('/auth/logout/', { refresh: refreshToken }),
   refresh: (refreshToken) => api.post('/auth/refresh/', { refresh: refreshToken }),
+  
+  // Password Reset
+  passwordResetRequest: (data) => api.post('/auth/password-reset/request/', data),
+  passwordResetValidateToken: (data) => api.post('/auth/password-reset/validate-token/', data),
+  passwordResetConfirm: (data) => api.post('/auth/password-reset/confirm/', data),
 }
 
 // User APIs

@@ -13,6 +13,8 @@ import Services from './pages/public/Services'
 import Contact from './pages/public/Contact'
 import PublicProfile from './pages/public/PublicProfile'
 import Login from './pages/auth/Login'
+import ForgotPassword from './pages/auth/ForgotPassword'
+import ResetPassword from './pages/auth/ResetPassword'
 import Register from './pages/auth/Register'
 
 // Staff Dashboard Pages
@@ -52,6 +54,8 @@ function App() {
         <Route path="/profiles" element={<PublicProfile />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
       </Route>
 
       {/* Staff Dashboard Routes */}
